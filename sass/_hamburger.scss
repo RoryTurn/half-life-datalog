@@ -1,0 +1,34 @@
+.search-container #navid{
+    display: none;
+}
+.mylinks{
+    display: block;
+    position: absolute;
+    left: 5vw;
+    top: 124vh;
+
+   
+    &_linkbutton{
+        font-family: 'Noto Sans Mono', monospace;
+        color: white;
+        padding: 10px;
+        text-decoration: none;
+        font-size: 15px;
+        display: block;
+        background: orange;
+        width: 200px;        
+        }
+
+
+}
+.iconholder{
+
+    &_icon{
+        position: absolute;
+        left: 5vw;
+        top: 115vh;
+        font-size: 50px;
+        color: orange;
+
+    }
+}

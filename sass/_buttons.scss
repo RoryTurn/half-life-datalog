@@ -1,0 +1,48 @@
+.button{
+    &_one{
+        width: 100vw;
+        height: 70px;
+        background: cadetblue;
+        color: white;
+        border: 10px double orange;
+        text-align: center;
+        text-transform: uppercase; 
+        font-size: 30px;   
+        font-family: 'Orbitron', sans-serif;
+        letter-spacing: 3px;;
+    }
+    &_one:hover{
+        background: black;
+        color: orange;
+        border: 10px double cadetblue;
+    }
+    &_two{
+        margin-top: 10px;
+        margin-bottom: 10px;
+      
+        background: orange;
+        color: white;
+        border: 8px groove cadetblue;
+        width: 300px;
+        height: 50px;        
+        font-family: 'Noto Sans Mono', monospace;
+        font-size: large;
+        text-align: center;
+    }
+    &_two:hover{
+        background: white;
+        color: black;
+        border: 10px double orange;
+        font-weight: 700;
+    }
+    
+}
+.buttondiv2{
+    display: flex;
+    width: 100vw;
+    background: black;
+    height: fit-content;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}

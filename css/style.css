@@ -1,0 +1,303 @@
+.bigbox {
+  width: 100vw;
+  height: 35vw;
+  display: flex;
+  flex-direction: row;
+  color: orange;
+  background: orange; }
+  .bigbox_mybox {
+    background: black;
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    width: 25%;
+    justify-content: space-evenly;
+    align-items: center;
+    border-bottom: 10px double cadetblue; }
+
+.titlebox {
+  display: flex;
+  width: 100vw;
+  height: fit-content;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: absolute;
+  top: 59vh;
+  background: orange; }
+  .titlebox_title {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 50px;
+    background: orange;
+    color: white;
+    letter-spacing: 3px;
+    text-transform: uppercase; }
+
+.littlebox {
+  display: flex;
+  flex-direction: row;
+  background: black;
+  color: orange;
+  width: 100vw;
+  justify-content: space-evenly;
+  align-items: center;
+  border-top: 10px double cadetblue; }
+
+.search-container {
+  width: 100vw;
+  height: fit-content;
+  display: block; }
+  .search-container_text {
+    width: 20%;
+    height: 50px;
+    font-size: large;
+    color: white;
+    background: orange;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 40%;
+    font-family: 'Noto Sans Mono', monospace;
+    letter-spacing: 2px; }
+
+.search-container #navid {
+  display: none; }
+
+.mylinks {
+  display: block;
+  position: absolute;
+  left: 5vw;
+  top: 124vh; }
+  .mylinks_linkbutton {
+    font-family: 'Noto Sans Mono', monospace;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 15px;
+    display: block;
+    background: orange;
+    width: 200px; }
+
+.iconholder_icon {
+  position: absolute;
+  left: 5vw;
+  top: 115vh;
+  font-size: 50px;
+  color: orange; }
+
+.button_one {
+  width: 100vw;
+  height: 70px;
+  background: cadetblue;
+  color: white;
+  border: 10px double orange;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 30px;
+  font-family: 'Orbitron', sans-serif;
+  letter-spacing: 3px; }
+.button_one:hover {
+  background: black;
+  color: orange;
+  border: 10px double cadetblue; }
+.button_two {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background: orange;
+  color: white;
+  border: 8px groove cadetblue;
+  width: 300px;
+  height: 50px;
+  font-family: 'Noto Sans Mono', monospace;
+  font-size: large;
+  text-align: center; }
+.button_two:hover {
+  background: white;
+  color: black;
+  border: 10px double orange;
+  font-weight: 700; }
+
+.buttondiv2 {
+  display: flex;
+  width: 100vw;
+  background: black;
+  height: fit-content;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center; }
+
+.littlebox {
+  display: flex;
+  flex-direction: row;
+  background: black;
+  color: orange;
+  width: 100vw;
+  justify-content: space-evenly;
+  align-items: center;
+  border-top: 10px double cadetblue; }
+
+.search-container {
+  width: 100vw;
+  height: fit-content;
+  display: block; }
+  .search-container_text {
+    width: 20%;
+    height: 50px;
+    font-size: large;
+    color: white;
+    background: orange;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 40%;
+    font-family: 'Noto Sans Mono', monospace;
+    letter-spacing: 2px; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  background: black; }
+
+.card {
+  width: 340px;
+  height: 400px;
+  color: white;
+  border: 5px solid cadetblue;
+  margin: 10px; }
+
+.card-title {
+  margin-top: 5px;
+  color: orange;
+  font-size: large;
+  text-transform: uppercase;
+  font-family: 'Orbitron', sans-serif; }
+
+.cardContent {
+  width: 100vw;
+  min-height: fit-content;
+  background: orange;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
+  font-family: 'Noto Sans Mono', monospace; }
+
+.card-img-top {
+  padding: 5px;
+  height: 80px;
+  width: 85px; }
+
+.modal-img {
+  margin-left: 5%;
+  margin-bottom: 5%;
+  height: 200px;
+  width: 230px; }
+
+.modal-text {
+  color: white;
+  font-family: 'Noto Sans Mono', monospace;
+  letter-spacing: 2px;
+  font-size: 15px; }
+
+.modal-body {
+  background: black; }
+
+.modal-title {
+  font-family: 'Orbitron', sans-serif;
+  color: orange;
+  text-transform: uppercase;
+  font-size: 25px; }
+
+.moreInformation {
+  background: cadetblue;
+  text-transform: uppercase;
+  color: white;
+  font-weight: 700;
+  border: 4px double orange;
+  border-radius: 10px;
+  font-family: 'Noto Sans Mono', monospace; }
+
+.moreInformation:hover {
+  background: black;
+  color: orange;
+  border: 4px double cadetblue; }
+
+.btn-secondary {
+  background: black;
+  text-transform: uppercase;
+  color: white;
+  font-weight: 700;
+  border: 4px double orange;
+  border-radius: 10px;
+  font-family: 'Noto Sans Mono', monospace; }
+
+.btn-secondary:hover {
+  background: black;
+  color: orange;
+  border: 4px double cadetblue; }
+
+.btn-primary {
+  background: cadetblue;
+  text-transform: uppercase;
+  color: white;
+  font-weight: 700;
+  border: 4px double orange;
+  border-radius: 10px;
+  font-family: 'Noto Sans Mono', monospace; }
+
+.btn-primary:hover {
+  background: black;
+  color: orange;
+  border: 4px double cadetblue; }
+
+.close {
+  color: white; }
+
+.close:hover {
+  color: orange; }
+
+.myform {
+  text-align: left;
+  display: flex;
+  flex-direction: column; }
+  .myform_mylabel {
+    font-family: 'Noto Sans Mono', monospace;
+    font-size: large;
+    margin-bottom: 10px;
+    color: white; }
+  .myform_mylabel:hover {
+    color: orange;
+    font-weight: 700; }
+  .myform_mycheck {
+    font-size: larger;
+    margin-bottom: 20px;
+    margin-left: 200px; }
+  .myform_mylabel2 {
+    font-family: 'Noto Sans Mono', monospace;
+    font-size: large;
+    margin-bottom: 10px;
+    width: 250px;
+    color: orange; }
+  .myform_mylabel2:hover {
+    color: white;
+    font-weight: 700; }
+  .myform_mycheck2 {
+    font-size: larger;
+    margin-top: 10px;
+    margin-bottom: 20px; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  background: black;
+  
+}
+
+html {
+  overflow-x: hidden; }
+
+/*# sourceMappingURL=style.css.map */

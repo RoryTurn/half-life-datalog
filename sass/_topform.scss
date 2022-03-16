@@ -1,0 +1,40 @@
+.bigbox{
+    width: 100vw;
+    height: 35vw;
+    display: flex;
+    flex-direction: row;
+    color: orange;
+    background: orange;
+    &_mybox{
+        background: black;
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
+        width: 25%;
+        justify-content: space-evenly;
+        align-items: center;
+        border-bottom: 10px double cadetblue;
+    }
+
+
+
+}
+.titlebox{
+    display: flex;
+    width: 100vw;
+    height: fit-content;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+    top: 59vh;
+    background: orange;
+    &_title{
+    font-family: 'Orbitron', sans-serif;
+    font-size: 50px;;
+    background: orange;
+    color: white;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    }
+}

@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    background: black;
+}
+.card{
+    width: 340px;
+    height: 400px;
+    color: white;
+    border: 5px solid cadetblue;
+    margin: 10px;
+}
+.card-title{
+    margin-top: 5px;
+    color: orange;
+    font-size: large;
+    text-transform: uppercase;
+    font-family: 'Orbitron', sans-serif;
+    
+}
+.cardContent{
+    width: 100vw;
+    min-height: fit-content;
+    background: orange;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;    
+    text-align: center;  
+    font-family: 'Noto Sans Mono', monospace;  
+}
+
+.card-img-top{
+    padding: 5px;
+    height: 80px;
+    width: 85px;
+}
+.modal-img{
+    margin-left: 5%;
+    margin-bottom: 5%;
+    height: 200px;
+    width: 230px;
+
+}
+.modal-text{
+    color: white;
+    font-family: 'Noto Sans Mono', monospace;
+    letter-spacing: 2px;
+    font-size: 15px;
+
+}
+.modal-body{
+
+    background: black;
+
+}
+.modal-title{
+    font-family: 'Orbitron', sans-serif;
+    color: orange; 
+    text-transform: uppercase;
+    font-size: 25px;
+}
+.moreInformation{
+    background: cadetblue;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 700;
+    border: 4px double orange;
+    border-radius: 10px;
+    font-family: 'Noto Sans Mono', monospace;
+}
+.moreInformation:hover {
+    background: black;
+    color: orange;
+    border:4px double cadetblue;
+}
+.btn-secondary{
+    background: black;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 700;
+    border: 4px double orange;
+    border-radius: 10px;
+    font-family: 'Noto Sans Mono', monospace;
+
+}
+.btn-secondary:hover {
+    background: black;
+    color: orange;
+    border:4px double cadetblue;
+}
+.btn-primary{
+    background: cadetblue;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 700;
+    border: 4px double orange;
+    border-radius: 10px;
+    font-family: 'Noto Sans Mono', monospace;
+
+}
+.btn-primary:hover {
+    background: black;
+    color: orange;
+    border:4px double cadetblue;
+}
+.close {
+    color: white;
+}
+.close:hover {
+    color: orange;
+}

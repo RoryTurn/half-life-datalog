@@ -1,0 +1,45 @@
+.myform{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+
+
+
+    &_mylabel{
+    font-family: 'Noto Sans Mono', monospace;
+    font-size: large;
+    margin-bottom: 10px;
+    color :white;
+    }
+
+    &_mylabel:hover{
+        color: orange;
+        font-weight: 700;
+    }
+    &_mycheck{
+        font-size: larger;
+        margin-bottom: 20px;
+        margin-left: 200px;
+
+    }
+    &_mylabel2{
+        font-family: 'Noto Sans Mono', monospace;
+        font-size: large;
+        margin-bottom: 10px;
+        width:250px;
+        color: orange; 
+    
+        }
+        &_mylabel2:hover{
+            color: white;
+            font-weight: 700;
+        }
+        &_mycheck2{
+            font-size: larger;
+            margin-top: 10px;
+            margin-bottom: 20px;
+            
+    
+        }
+
+}
